@@ -29,7 +29,7 @@ namespace PI_nach_Wallis
             }
             Console.WriteLine("\nPi= " + 2 * nValue); //output of the solution
             Console.WriteLine("\n---------------------------------------------------------------------------------------------");
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.DarkCyan; //changing the console color
             Console.WriteLine("Hinweis:"); //giving a hint
             
             Console.WriteLine("\nDa nicht alle Werte (welche unendlich viele wären) berechnet werden können, wird ab einer" +
@@ -37,7 +37,7 @@ namespace PI_nach_Wallis
             Console.WriteLine("Für weitere Informationen zur Berechnung nach Wallis"
                 + "\nfolgen Sie bittem folgendem Link:");
             Console.WriteLine("https://de.wikipedia.org/wiki/Wallissches_Produkt");
-            Console.ResetColor();
+            Console.ResetColor(); //restore the normal console color
             Console.WriteLine("\n---------------------------------------------------------------------------------------------");
 
         }
